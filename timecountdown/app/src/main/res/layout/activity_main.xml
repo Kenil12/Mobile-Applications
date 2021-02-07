@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+       android:id="@+id/countdown"
+        android:minWidth="110dp"
+        android:minHeight="110dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_horizontal"
+        android:text="@string/_00"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="75sp"
+        tools:layout_editor_absoluteX="150dp"
+        tools:layout_editor_absoluteY="168dp" />
+
+
+    <Button
+        android:id="@+id/upward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countdown"
+        android:layout_marginTop="-267dp"
+        android:text="@string/start"
+        android:layout_toLeftOf="@+id/startb"
+
+        android:textColor="@color/black"
+        android:layout_toStartOf="@+id/startb" />
+
+    <Button
+        android:id="@+id/downward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countdown"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="-267dp"
+        android:layout_marginBottom="270dp"
+        android:layout_toRightOf="@+id/startb"
+        android:text="@string/reset"
+        android:textColor="@color/black"
+        android:layout_toEndOf="@+id/startb"
+        android:layout_marginStart="14dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/resetb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countdown"
+        android:layout_marginStart="57dp"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="100dp"
+        android:layout_toEndOf="@+id/startb"
+        android:layout_toRightOf="@+id/startb"
+        android:contentDescription="@string/todo"
+        android:foregroundGravity="bottom"
+        app:srcCompat="@drawable/ic_reset"
+        tools:layout_editor_absoluteX="260dp"
+        tools:layout_editor_absoluteY="340dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/startb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countdown"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="98dp"
+        app:srcCompat="@drawable/ic_play_arrow"
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="425dp"
+        android:contentDescription="@string/todo1" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pauseb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/countdown"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginRight="61dp"
+        android:layout_toStartOf="@+id/startb"
+        android:layout_toLeftOf="@+id/startb"
+        app:srcCompat="@drawable/ic_pause"
+        tools:layout_editor_absoluteX="177dp"
+        tools:layout_editor_absoluteY="468dp"
+        android:contentDescription="@string/todo2" />
+
+</RelativeLayout>

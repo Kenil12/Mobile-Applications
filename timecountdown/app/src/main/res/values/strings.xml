@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">
+
+        Count Down</string>
+    <string name="start">Increase</string>
+    <string name="reset">Decrese</string>
+    <string name="_00">30</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="todo2">TODO</string>
+</resources>
