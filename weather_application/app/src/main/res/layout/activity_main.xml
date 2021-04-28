@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/main"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:fontFamily="casual"
+        />
+
+    <EditText
+        android:id="@+id/userInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:hint="@string/city_name"
+        android:inputType="text"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/black"
+        android:hint="@string/longitude"
+        android:inputType="numberDecimal"
+        android:id="@+id/inputLongitude"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/black"
+        android:hint="@string/latitude"
+        android:id="@+id/inputLatitude"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:inputType="numberDecimal"
+        android:hint="@string/cnt"
+        android:id="@+id/inputCnt"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:gravity="center"
+        android:textColorHint="@color/black"
+        android:hint="@string/zipcode_countrycode"
+        android:id="@+id/inputZipCode"
+        />
+
+    <Button
+        android:id="@+id/GO"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/go"
+        android:textColor="#FFFFFF"
+        tools:targetApi="lollipop" />
+
+    <ScrollView
+        android:layout_width="328dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/weatherOutput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="25dp"
+            android:fontFamily="sans-serif-medium"
+
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginStart="25dp" />
+
+    </ScrollView>
+
+
+</LinearLayout>

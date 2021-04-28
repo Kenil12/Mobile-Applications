@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weather app</string>
+    <string name="hint">Enter City location</string>
+    <string name="go">What is the weather?</string>
+    <string name="main">Weather Update</string>
+    <string name="city_name">City Name</string>
+    <string name="longitude">Longitude</string>
+    <string name="latitude">Latitude</string>
+    <string name="zipcode_countrycode">ZipCode,CountryCode</string>
+    <string name="cnt">Cnt</string>
+</resources>
