@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Assignment4</string>
+    <string name="username">username</string>
+    <string name="signin">Sign In</string>
+    <string name="enter">Enter Username</string>
+    <string name="go_button">Lets begin</string>
+    <string name="todo">TODO</string>
+    <string name="optionc">C</string>
+    <string name="optiond">D</string>
+    <string name="time">25</string>
+    <string name="score">0/1</string>
+    <string name="question">Question</string>
+    <string name="optiona">A</string>
+    <string name="optionb">B</string>
+    <string name="correct">Correct!!</string>
+    <string name="play">Play</string>
+    <string name="score_display">Stop</string>
+    <string name="restart">Restart</string>
+    <string name="final_score">Your Final Score is:</string>
+    <string name="final_score1">0/8</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

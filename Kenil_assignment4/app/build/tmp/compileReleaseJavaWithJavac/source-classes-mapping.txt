@@ -1,0 +1,22 @@
+com/example/myapplication/final_display.java
+ com.example.myapplication.final_display
+ com.example.myapplication.final_display$1
+com/example/myapplication/Quize_main.java
+ com.example.myapplication.Quize_main
+ com.example.myapplication.Quize_main$1
+ com.example.myapplication.Quize_main$2
+ com.example.myapplication.Quize_main$3
+ com.example.myapplication.Quize_main$4
+ com.example.myapplication.Quize_main$5
+ com.example.myapplication.Quize_main$6
+ com.example.myapplication.Quize_main$7
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/MainActivity.java
+ com.example.myapplication.MainActivity
+ com.example.myapplication.MainActivity$1
+com/example/myapplication/data.java
+ com.example.myapplication.data
+com/example/myapplication/go_screen.java
+ com.example.myapplication.go_screen
+ com.example.myapplication.go_screen$1
